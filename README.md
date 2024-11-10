@@ -31,16 +31,47 @@ This project aims to develop a movie recommendation system using machine learnin
 
 **Modeling Approach**
 
+Data Preprocessing:
+Handle missing values and outliers.
+1. Tokenization: Split text into individual words.
+2. Stopword removal: Remove common words (e.g., "the", "and").
+3. Stemming: Reduce words to base form.
+4. Removing special characters and punctuation.
 
+
+Model Selection:
+To recommend movies, we employed a content-based filtering approach using Cosine Similarity and TfidfVectorizer.
+
+Methodology:
+
+1. Data Preprocessing: We preprocessed the movie metadata by converting the text features (overview, genres, keywords) into numerical representations using TfidfVectorizer.
+
+2. Similarity Measurement: We calculated the cosine similarity between the user's preferred movies and the entire movie dataset.
+
+3. Recommendation Generation: We ranked movies based on their similarity scores and recommended the top-N movies.
+
+
+[Link Text](URL)
 
 **Usage**
 
-Data Loading: Load your transaction dataset in the notebook.
+Data Loading: Load your movies dataset in the notebook.
 Data Preprocessing: Follow the preprocessing steps to clean and transform the data.
 Feature Engineering: Apply feature engineering methods as defined in the notebook.
 Model Training and Evaluation: Train and evaluate the model using the chosen techniques and metrics.
 
 **Technologies Used**
+
+Natural Language Processing:
+
+Cosine Similarity: Measure of similarity between vectors (text documents)
+
+TfidfVectorizer: Converted text features into numerical representations.
+
+Python: Programming language for model development and data manipulation.
+
+Jupyter Notebook: Interactive environment for data analysis and modeling.
+
 
 
 
