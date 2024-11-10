@@ -16,9 +16,22 @@ This project aims to develop a movie recommendation system using machine learnin
 
 **Dataset Overview**
 
+1. id: Unique identifier for each movie.
+2. title: Movie title.
+3. original_title: Original title of the movie (before translation).
+4. homepage: Official website of the movie.
+5. tagline: Catchphrase or slogan for the movie.
+6. status: Current status of the movie (e.g., released, upcoming).
+7. genres: List of genres associated with the movie (e.g., action, comedy).
+8. keywords: List of relevant keywords for the movie (e.g., space, adventure).
+9. overview: Brief summary of the movie.
+10. cast: List of main cast members.
+11. crew: List of key crew members (e.g., director, screenwriter).
+12. director: Name of the movie director.
+
 **Modeling Approach**
 
-**Evaluation Matrics**
+
 
 **Usage**
 
