@@ -51,7 +51,7 @@ Methodology:
 3. Recommendation Generation: We ranked movies based on their similarity scores and recommended the top-N movies.
 
 
-[Link Text](URL)
+[code](https://github.com/Aakash1379/movie_recommended_system/blob/main/Movie%20Recommended.ipynb)
 
 **Usage**
 
