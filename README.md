@@ -5,7 +5,7 @@ This repository contains a Movie Recommendation System, built using machine lear
 ![Alt text](https://repository-images.githubusercontent.com/687484722/18f7170c-be7c-45d5-92c6-e6a31483f6a1)
 **Project Overview**
 
-This project aims to develop a movie recommendation system using machine learning and natural language processing techniques. The system will analyze user preferences and movie attributes to suggest personalized recommendations.
+This project aims to develop a movie recommendation system using machine learning and natural language processing techniques. The system will analyze user preferences and movie attributes to suggest personalized recommendation.
 
 **Objective**
 
